@@ -1,7 +1,7 @@
 { 
     "name": "NovaBot-MD",
     "version": "2.2.2",
-    "description": "Customizable WhatsApp Bot",
+    "description": "Bot del WhatsApp simple",
     "main": "index.js",
     "type": "module",
     "directories": {
