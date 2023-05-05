@@ -27,6 +27,7 @@ NovaBot-MD todavía no está terminado bot el desarrollo✨
 
 <p align="center">
 <img src="https://telegra.ph/file/fed1c9d94b37511e570d5.mp4" alt="" width="500"/>
+  
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/gh5NajZOTA8)  <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" height="29px">
 
