@@ -27,9 +27,6 @@ https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ɢʀᴜᴘᴏs ᴅᴇʟ ᴀᴍɪsᴛᴀᴅᴇs ᴅᴏɴᴅᴇ ᴇsᴛᴀ ᴇʟ ʙᴏᴛ
 
-*ஓீ͜ঔৣ͡🍒STICKER/𝑩Ø𝑻🔥ঔৣ͡ஓ*
-https://chat.whatsapp.com/DCJclB8oBAPIAoleUtNEaN
-
 *꧁⁣𓆩Aᴹᴵᴳᴼˢ Cᴴᴬᵀˢ Y Aᴾᴼᴿᵀᴱ*
 https://chat.whatsapp.com/JZaD3sfNoVW4JvaoQ4uVwF
 
