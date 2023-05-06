@@ -162,8 +162,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ Hola @user ¿COMO ESTAS?😃\n┆——————«•»——————\n┆ Bienvenido A @subject\n┆——————«•»——————\n┆un gusto conocerte amig@ 🤗\n┆Recuerda leer las reglas del grupo \n┆para no tener ningun problema 🧐\n┆——————«•»——————\n┆descripción:\n┆@desc\n┗◛◛◛◛◛◛◛◛◛◛◛◛┛'
-  conn.bye = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ adiós @user se fue\n┆ un fan del bts\n┗◛◛◛◛◛◛◛◛◛◛◛◛┛'
+  conn.welcome = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ Hola @user ¿COMO ESTAS?😃\n┆——————«•»——————\n┆ Bienvenido A @subject\n┆——————«•»——————\n┆un gusto conocerte amig@ 🤗\n┆Recuerda leer las reglas del grupo\n┆para no tener ningun problema 🧐\n┖━─━─━─━─━─━─━─━─━┚\n\n@desc'
+  conn.bye = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ adiós @user se fue\n┆ un fan del bts\n  ┖━─━─━─━─━─━─━─━─━┚'
   conn.spromote = '@user ahora eres admin del grupo'
   conn.sdemote = '@user joderte ya no eres admin'
   conn.sDesc = 'La descripción del grupo fue cambiada nueva descripción es\n@desc'
@@ -270,11 +270,11 @@ async function _quickTest() {
   // require('./lib/sticker').support = s
   Object.freeze(global.support)
 
-  if (!s.ffmpeg) conn.logger.warn('Please install ffmpeg for sending videos (pkg install ffmpeg)')
-  if (s.ffmpeg && !s.ffmpegWebp) conn.logger.warn('Stickers may not animated without libwebp on ffmpeg (--enable-ibwebp while compiling ffmpeg)')
-  if (!s.convert && !s.magick && !s.gm) conn.logger.warn('Stickers may not work without imagemagick if libwebp on ffmpeg doesnt isntalled (pkg install imagemagick)')
+  if (!s.ffmpeg) conn.logger.warn('\n\n[ IMPORTANTE ] : Por favor instalé el paquete ffmpeg para el envío de archivos multimedia\n[_>] (pkg install ffmpeg)\n\n')
+  if (s.ffmpeg && !s.ffmpegWebp) conn.logger.warn('\n\n[ IMPORTANTE ] : Es posible que los stickers no estén animadas sin libwebp en ffmpeg\n[_>] (pkg install libwebp) ó (--enable-ibwebp while compiling ffmpeg)\n\n')
+  if (!s.convert && !s.magick && !s.gm) conn.logger.warn('\n\n[ IMPORTANTE ] : Es posible que los stickers no funcionen sin imagemagick si libwebp y ffmpeg no esten instalados\n[_>] (pkg install imagemagick)\n\n')
 }
 
 _quickTest()
-  .then(() => conn.logger.info('CARGADO.....\nLOS PLUGINS'))
+  .then(() => conn.logger.info('\n\n[_>] Cargado los plugins un momentos ✓\n'))
   .catch(console.error)
