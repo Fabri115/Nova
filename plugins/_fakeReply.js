@@ -11,10 +11,13 @@ handler.all = async function (m) {
    global.rpl = { contextInfo: { externalAdReply: { mediaUrl: dygp, mediaType: 'VIDEO', description: 'support group', title: packname, body: 'grupo de soporte', thumbnailUrl: pp, sourceUrl: dygp }}} 
    
 	//reply 
-    global.rpyp = { contextInfo: { externalAdReply: { mediaUrl: fgpyp, mediaType: 'VIDEO', description: 'Github', title: 'Github', body: 'Si te agrada el bot apoyarme con una 🌟', thumbnailUrl: pp, sourceUrl: fgpyp }}}
+    global.rpyp = { contextInfo: { externalAdReply: { mediaUrl: fgpyp, mediaType: 'VIDEO', description: 'GitHub', title: 'GitHub', body: 'ˢᶦ ᵗᵉ ᵃᵍʳᵃᵈᵃ ᵉˡ ᴮᵒᵗ ᵃᵖᵒʸᵃʳᵐᵉ ᶜᵒⁿ ᵘⁿᵃ 🌟', thumbnailUrl: pp, sourceUrl: fgpyp }}}
 	
 	//reply link yt
-    global.yut = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: 'Suscribete : ' + yt, title: 'YouTube', body: 'NovaBot-MD', thumbnailUrl: pp, sourceUrl: yt }}}
+    global.yut = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: 'ˢᵘˢᶜʳᶦᵇᵉᵗᵉ ᵃ ⁿᵘᵉˢᵗʳᵒ ᶜᵃⁿᵃˡ ᵈᵉˡ ʸᵒᵘᵀᵘᵇᵉ : ' + yt, title: 'YouTube', body: 'NovaBot-MD', thumbnailUrl: pp, sourceUrl: yt }}}
 
 } 
 export default handler
+
+ 
+ 
