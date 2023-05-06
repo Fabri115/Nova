@@ -13,28 +13,31 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 *┇ ʏᴀ ᴄᴏɴ ᴇsᴏ sᴏʏ ғᴇʟɪᴢ.😄*
 *┇ ʏ ᴀᴘᴏʏᴀʀʟᴏs ᴄᴏɴ ᴜɴᴀ 🌟 ᴇʟ ɢɪᴛʜᴜʙ ᴏғɪᴄɪᴀʟ ᴅᴇʟ ʙᴏᴛ*
 *┃* ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*┃* *ʏᴏᴜᴛᴜʙᴇ | sᴜsᴄʀɪʙɪʀᴛᴇ 🔕*
+*┃* ʏᴏᴜᴛᴜʙᴇ | sᴜsᴄʀɪʙɪʀᴛᴇ 🔕
 *┃*  *https://www.youtube.com/@TheLoliBot-MD*
 *┃* ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*┃*  *ɢɪᴛʜᴜʙ 🌟*
-*┃*  *
+*┃*  ɢɪᴛʜᴜʙ 🌟
+*┃*  *${fgig}*
 *┃* ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*┃*  *ᴛɪᴋᴛᴏᴋ* 
+*┃*  ᴛɪᴋᴛᴏᴋ
 *┃*  *https://www.tiktok.com/@thelolibot_md*
 *┃* ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*┃*   *ғᴀᴄᴇʙᴏᴏᴋ*
+*┃*  ғᴀᴄᴇʙᴏᴏᴋ
 *┃* *https://facebook.com/groups/872989990425789/*
 *┃* ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*┃*  *ᴀɢʀᴀᴄɪᴍɪᴇɴᴛᴏs:*
-*┃* *agradecimiento al 
+*┃* ᴀɢʀᴀᴄɪᴍɪᴇɴᴛᴏs:
+*┃* ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ ᴛɪᴇɴᴇ ғᴜɴᴄɪᴏɴᴇs
+*┃* ǫᴜᴇ ᴘᴇʀᴛᴇɴᴇᴢᴄᴀɴ
+*┃* ᴀ ʟᴀs sɪɢᴜᴇɴᴛᴇs ᴇᴍᴘʀᴇsᴀ(s)|ᴏʀɢᴀɴɪᴢᴀᴄɪᴏɴ(ᴇs)
+*┃* ᴘᴇʀsᴏɴᴀ(s):
 *┃* ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*┃* *ɢᴀᴛᴀʙᴏᴛ-ᴍᴅ*
+*┃* ɢᴀᴛᴀʙᴏᴛ-ᴍᴅ
 *┃* *https://github.com/GataNina-Li/GataBot-MD*
-*┃* *ɢʀᴀᴄɪᴀs!!!*
+*┃*  ɢʀᴀᴄɪᴀs!!!
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `
 let img = 'https://i.ibb.co/37FP2bk/donate.jpg'
-conn.sendButton(m.chat, don, 'Haga click en boton si quiere comprar o alquilar al bot', img, [['Buy Premium', `${usedPrefix}buyprem`]],m, rpyp)
+conn.sendButton(m.chat, don, 'NovaBot-MD', img, [['GRUPO', `${usedPrefix}grupos`]],m, rpyp)
 }
 
 handler.help = ['donate']
