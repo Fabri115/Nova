@@ -83,7 +83,7 @@ global.db.data.users[m.sender].exp += 400
 ┃➠ ${sn}
 ┗─━─━─━∞◆∞━─━─━─┛`
 //let author = global.author
-await conn.sendButton(m.chat, caption, `ᴛᴜ ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ ᴛᴇ sᴇʀᴠɪʀᴀ ᴇɴ ᴄᴀsᴏ ǫᴜᴇ ǫᴜɪᴇʀᴀ ʙᴏʀʀᴀʀ sᴜ ʀᴇɢɪsᴛʀᴏ\nᴇᴊᴇᴍᴘʟᴏ ${usedPrefix}unreg ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ\n${wm}`, [['ᴠᴇʀɪғᴀᴄᴀᴅᴏ(ᴀ)!! ✅', '/profile']], m)
+await conn.sendButton(m.chat, caption, `ᵀᵘ ⁿᵘ́ᵐᵉʳᵒ ᵈᵉˡ ˢᵉʳᶦᵉ ᵗᵉ ˢᵉʳᵛᶦʳᵃ ᵉⁿ ᶜᵃˢᵒ ᵠᵘᵉ ᵠᵘᶦᵉʳᵃ ᵇᵒʳʳᵃʳ ˢᵘˢ ʳᵉᵍᶦˢᵗʳᵒˢ\nEjemplo: ${usedPrefix}unreg (Numero del serie)\n${wm}`, [['ᴠᴇʀɪғᴀᴄᴀᴅᴏ(ᴀ)!! ✅', '/profile']], m)
 await m.reply(`${sn}`) 
 }
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')

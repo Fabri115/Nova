@@ -3,7 +3,7 @@ import { createHash } from 'crypto'
 let handler = async function (m, { conn, text, usedPrefix }) {
 let sn = createHash('md5').update(m.sender).digest('hex')
 m.reply(`
-este es sus numero del serie:\n
+ᴱˢᵗᵉ ᵉˢ ˢᵘˢ ⁿᵘ́ᵐᵉʳᵒ ᵈᵉˡ ˢᵉʳᶦᵉ:\n
 ${sn}
 `.trim())
 }
