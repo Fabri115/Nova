@@ -113,4 +113,3 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 [![Misaelsharkbot](https://github.com/Misaelsharkbot.png?size=100)](https://github.com/Misaelsharkbot)
 [![Azami19](https://github.com/Azami19.png?size=100)](https://github.com/Azami19)
 [![antonio32114](https://github.com/Antonio32114.png?size=100)](https://github.com/Antonio32114)
-[![OFC-YOVANI](https://github.com/OFC-YOVANI.png?size=100)](https://github.com/OFC-YOVANI)
