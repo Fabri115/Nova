@@ -501,9 +501,8 @@ export async function participantsUpdate({ id, participants, action }) {
                     let apii = await this.getFile(pp)
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
                               (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
-                        
-this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? 'ʙɪᴇɴᴠᴇɴɪᴅᴏ 👋' : ' ᴀᴅɪᴏs 🚮'), (action == 'add' ? '.ok' : '.llorar')], ['🛑 ᴍᴇɴᴜ 🛑', `#menu`]], null, {mentions: this.parseMention(text)})
-                
+this.sendFile(id, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, { mentions: [user] })                        
+//this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? 'ʙɪᴇɴᴠᴇɴɪᴅᴏ 👋' : ' ᴀᴅɪᴏs 🚮'), (action == 'add' ? '.ok' : '.llorar')], ['🛑 ᴍᴇɴᴜ 🛑', `#menu`]], null, {mentions: this.parseMention(text)})
  //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) 
                    }
                 }
@@ -607,7 +606,8 @@ global.dfail = (type, m, conn) => {
         unreg: '🔴ʜᴇʏ ᴀʟᴛᴏ ɴᴏ ᴇsᴛᴀ ʀᴇɢɪsᴛʀᴀᴅᴏ 🔴\nᴘᴀʀᴀ ᴘᴏᴅᴇʀ ᴜsᴀʀ ᴇʟ ʙᴏᴛ ɴᴇᴄᴇsɪᴛᴀ ʀᴇɢɪsᴛʀᴀʀᴛᴇ:\n\n*/reg nombre.edad*',
         restrict: '🔐 ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇsᴛᴀ ᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
     }[type]
-    if (msg) return conn.sendButton(m.chat, msg, wm, null, [['OK', '.ok'] ], m)
+    if (msg) return m.reply(msg)
+   //if (msg) return conn.sendButton(m.chat, msg, wm, null, [['OK', '.ok'] ], m)
 }
 
 let file = global.__filename(import.meta.url, true)
