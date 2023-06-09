@@ -10,7 +10,7 @@ export async function before(m, { conn }) {
         user.level++
     user.role = global.rpg.role(user.level).name
     if (before !== user.level) {
-    conn.sendButton(m.chat, '🤑 ' + wm, `╭━─━─━─≪🔆≫─━─━─━╮
+    m.reply(`╭━─━─━─≪🔆≫─━─━─━╮
 │☞ FELICIDADES 👏 HAS ALCANZADO UN NUEVO NIVEL
 │◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 │☞ NIVEL ANTERIOR: ${before}
@@ -20,5 +20,16 @@ export async function before(m, { conn }) {
 │☞ RANGO : ${user.role}
 │◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 │☞ FECHA: ${new Date().toLocaleString('id-ID')}
-╰━─━─━─≪🔆≫─━─━─━╯ׂ`, null, [['✳️MENU', `/menu`]], m)
+╰━─━─━─≪🔆≫─━─━─━╯	`.trim())
+   /* conn.sendButton(m.chat, '🤑 ' + wm, `╭━─━─━─≪🔆≫─━─━─━╮
+│☞ FELICIDADES 👏 HAS ALCANZADO UN NUEVO NIVEL
+│◤━━━━━ ☆. ∆ .☆ ━━━━━◥
+│☞ NIVEL ANTERIOR: ${before}
+│◤━━━━━ ☆. ∆ .☆ ━━━━━◥
+│☞ NIVEL ACTUAL: ${user.level}
+│◤━━━━━ ☆. ∆ .☆ ━━━━━◥
+│☞ RANGO : ${user.role}
+│◤━━━━━ ☆. ∆ .☆ ━━━━━◥
+│☞ FECHA: ${new Date().toLocaleString('id-ID')}
+╰━─━─━─≪🔆≫─━─━─━╯ׂ`, null, [['✳️MENU', `/menu`]], m)*/
 }}		

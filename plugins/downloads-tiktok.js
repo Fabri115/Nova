@@ -10,7 +10,8 @@ m.react(rwait)
 try {
     let p = await fg.tiktok(args[0]) 
     let te = `AQUI ESTA TU VIDEO DEL TIKTOK\n🔸️ *Nombre del usuarios:* ${p.author}\n🔸️*Descripción:* ${p.title}`
-    conn.sendButton(m.chat, te, fgig, p.nowm, [['⎘ Stalkig', `${usedPrefix}ttstalk ${p.author.replace(/^@/, '')}`], ['♫ Audio', `${usedPrefix}tomp3`]], m)
+    conn.sendFile(m.chat, p.play, 'tiktok.mp4', te, m)
+    //conn.sendButton(m.chat, te, fgig, p.nowm, [['⎘ Stalkig', `${usedPrefix}ttstalk ${p.author.replace(/^@/, '')}`], ['♫ Audio', `${usedPrefix}tomp3`]], m)
     m.react(done)
     } catch {  	
     try { 
@@ -19,7 +20,8 @@ try {
          .catch(async _ => await tiktokdlv3(args[0]))
     const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
     if (!url) throw '❎ Error al descargar el video'
-    conn.sendButton(m.chat, `AQUI ESTA TU VIDEO DEL TIKTOK\n*nombre del usuarios:* ${nickname} ${description ? `\n *Descripción:* ${description}` : ''}`, fgig, url, [['♫ Audio', `${usedPrefix}tomp3`]], m)
+    conn.sendFile(m.chat, url, 'fb.mp4', `AQUI ESTA TU VIDEO DEL TIKTOK\n*nombre del usuarios:* ${nickname} ${description ? `\n *Descripción:* ${description}` : ''}`, m)
+    //conn.sendButton(m.chat, `AQUI ESTA TU VIDEO DEL TIKTOK\n*nombre del usuarios:* ${nickname} ${description ? `\n *Descripción:* ${description}` : ''}`, fgig, url, [['♫ Audio', `${usedPrefix}tomp3`]], m)
 m.react(done)
 } catch {
     m.reply(`❎ Error al descargar el video`)

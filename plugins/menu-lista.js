@@ -1,4 +1,4 @@
-import moment from 'moment-timezone'
+/*import moment from 'moment-timezone'
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
 let locale = 'es'
 let d = new Date(new Date + 3600000)
@@ -101,4 +101,4 @@ function ucapan() {
     res = `𝙱𝚄𝙴𝙽𝙰𝚂 𝙽𝙾𝙲𝙷𝙴𝚂 | 𝙶𝙾𝙾𝙳 𝙽𝙸𝙶𝚃𝙷`
   }
   return res
-} 
+} */

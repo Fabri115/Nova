@@ -162,10 +162,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '*ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ*', pp, [
+    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
+  /* conn.sendButton(m.chat, text.trim(), '*ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ*', pp, [
       ['Info', `${_p}botinfo`],
       ['Grupos', `${_p}grupos`]
-    ],m, rpl)
+    ],m, rpl)*/
   
     m.react('🙌') 
     
@@ -176,7 +177,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['menucompleto', 'help', 'fullmenu'] 
+//handler.command = ['menucompleto', 'help', 'fullmenu'] 
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
 handler.register = false
 
 handler.exp = 3

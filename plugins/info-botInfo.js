@@ -58,10 +58,11 @@ INFOBOT
 *≡  NodeJS Uso de memoria*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
-conn.sendButton(m.chat, infobt, fgig, null, [
+m.reply(infobt)
+/*conn.sendButton(m.chat, infobt, fgig, null, [
   ['Menu', `${usedPrefix}menu`],
    ['Grupos', `${usedPrefix}grupos`]
- ], m)
+ ], m)*/
 
 }
 handler.help = ['info']

@@ -65,7 +65,7 @@ let neww = performance.now()
 let speed = neww - old
 let info = `┏━━━━❰･𝐄𝐒𝐓𝐀𝐃𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓･❱━━━━
 ┃
-┃웃 Hola ${taguser}* 
+┃웃 Hola ${taguser}
 ┃
 ┃╍╍╍╍╍╍╍╍╍╍╍╍╍
 ┃
@@ -79,7 +79,8 @@ let info = `┏━━━━❰･𝐄𝐒𝐓𝐀𝐃𝐎 𝐃𝐄𝐋 𝐁𝐎�
 ┃➢ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚃𝙾𝚃𝙰𝙻𝙴𝚂: ${Object.keys(global.db.data.users).length} 
 ┃
 ┗━━━━━━━━━━━━━`
-conn.sendButton(m.chat, info, `${wm}`, pp, [['MENU', '.menu']], fkontak, m)
+conn.sendFile(m.chat, pp, 'novabot.jpg', info, fkontak, m)
+//conn.sendButton(m.chat, info, `${wm}`, pp, [['MENU', '.menu']], fkontak, m)
 }
 handler.help = ['estado']
 handler.tags = ['main']

@@ -5,18 +5,15 @@ m.reply(`
 *ʜᴏʟᴀ ᴇsᴛɪᴍᴀᴅᴏs ᴜsᴜᴀʀɪᴏs 👋🏻,  ᴛᴇ ɪɴᴠɪᴛᴏ ᴀ ᴜɴɪʀᴛᴇ ᴀ ʟᴏs ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇ ʟᴀs ғᴀᴍɪʟᴀs ᴛʜᴇ ʟᴏʟɪʙᴏᴛ-ᴍᴅ ʏ ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ, ᴘᴀʀᴀ ᴄᴏɴᴠɪᴠɪʀ ᴄᴏɴ ʟᴀ ᴄᴏᴍᴜɴɪᴅᴀᴅ :ᴠ*
 
 *➤ ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇʟ ʙᴏᴛ:*
-1) https://chat.whatsapp.com/LZFE2MHvEkY7b69TmAGmHR
+1) https://chat.whatsapp.com/BkFKID3vATKKZuaPkOXJM5
 
 2) https://chat.whatsapp.com/GUlSx2eoanhBPssKzuA48c
 
 ɢʀᴜᴘᴏ ᴅᴇʟ ᴄᴏʟᴀʙᴏʀᴀᴄɪᴏɴ ɢᴀᴛᴀʙᴏᴛ-ᴍᴅ ʏ ʟᴏʟɪʙᴏᴛ-ᴍᴅ 
 https://chat.whatsapp.com/CcJKHrxGBWAAH3PiBL07JS
 
-ɢʀᴜᴘᴏ ᴅᴇʟ ᴄᴏʟᴀʙᴏʀᴀᴄɪᴏɴ ɴᴏᴠᴀʙᴏᴛ ʏ ᴅᴀʙɪʙᴏᴛ-ᴍᴅ
-https://chat.whatsapp.com/HZmxLIsZRbYE37xRV9XQYU
-
 ɢʀᴜᴘᴏ ᴅᴇʟ ᴄᴏʟ ² (ᴀǫᴜɪ sᴇ ᴘᴇʀᴍɪᴛᴇ ᴛᴏᴅᴏ ʟᴏs ᴄᴏᴍᴀɴᴅᴏs ᴅᴇʟ ʙᴏᴛ)
-https://chat.whatsapp.com/I3qjtQABJPaB65i2uhGe81
+https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO
 
 ɪɴғᴏᴍᴀʀᴛᴇ sᴏʙʀᴇ ʟᴀs ɴᴜᴇᴠᴀs ᴀᴄᴛᴜᴀʟɪᴢᴀᴄɪᴏɴᴇs ᴅᴇʟ ʙᴏᴛ ᴀǫᴜɪ 
 https://chat.whatsapp.com/JESaesjOEcB6wnGX0QYT9o

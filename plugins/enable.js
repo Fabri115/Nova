@@ -234,7 +234,7 @@ break
       throw false
   }
   
-  conn.sendButton(m.chat, `┏•━•━━•━ ◎ ━••━•━•━•┓
+/*  conn.sendButton(m.chat, `┏•━•━━•━ ◎ ━••━•━•━•┓
 ┣ 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂
 ┣─━──━─❖─━──━─ ◎
 ┣ 🔸𝚃𝚒𝚙𝚘: ${type} 
@@ -242,12 +242,17 @@ break
 ┣ 🔸𝙴𝚜𝚝𝚊𝚍𝚘: ${isEnable ? 'Activo ✅' : 'Desactivado ❌️'}
 ┣─━──━─❖─━──━─ ◎
 ┣ 🔸𝙿𝚊𝚛𝚊: ${isAll ? 'Este bot' : isUser ? '' : 'Este chat'}
-┗•━•━•━━ ◎ ━•━••━•━•┛`,lb, null, [[`${isEnable ? '❌️ Desactivar' : '✅ Activar'}`, `${isEnable ? `${usedPrefix}off ${type}` : `${usedPrefix}on ${type}`}`], ['🔰Menu', `${usedPrefix}help`]],m)
+┗•━•━•━━ ◎ ━•━••━•━•┛`,lb, null, [[`${isEnable ? '❌️ Desactivar' : '✅ Activar'}`, `${isEnable ? `${usedPrefix}off ${type}` : `${usedPrefix}on ${type}`}`], ['🔰Menu', `${usedPrefix}help`]],m)*/
 
-/*m.reply(`
-el comando *${type}* Se *${isEnable ? 'Activó' : 'Desactivó'}* ${isAll ? 'para este bot' : isUser ? '' : 'para este chat'}
-con éxitos ✅`.trim()) 
-*/
+m.reply(`┏•━•━━•━ ◎ ━••━•━•━•┓
+┣ 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂
+┣─━──━─❖─━──━─ ◎
+┣ 🔸𝚃𝚒𝚙𝚘: ${type} 
+┣─━──━─❖─━──━─ ◎
+┣ 🔸𝙴𝚜𝚝𝚊𝚍𝚘: ${isEnable ? 'Activo ✅' : 'Desactivado ❌️'}
+┣─━──━─❖─━──━─ ◎
+┣ 🔸𝙿𝚊𝚛𝚊: ${isAll ? 'Este bot' : isUser ? '' : 'Este chat'}
+┗•━•━•━━ ◎ ━•━••━•━•┛`.trim()) 
 
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')

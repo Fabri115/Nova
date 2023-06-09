@@ -72,7 +72,21 @@ const listMessage = {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
 global.db.data.users[m.sender].limit += 5
 global.db.data.users[m.sender].exp += 400
-  let caption = `┏──━∞ *ʀᴇɢɪsᴛʀᴀᴅᴏ* ∞─━─┓
+await m.reply(`┏──━∞ *ʀᴇɢɪsᴛʀᴀᴅᴏ* ∞─━─┓
+┃ *ɴᴏᴍʙʀᴇ* 
+┃➠ ${name}
+┃• • • • • • • • • • • • • • • • • • •
+┃ *ᴇᴅᴀᴅ*
+┃➠ ${age} años
+┃• • • • • • • • • • • • • • • • • • •
+┃ *ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ*
+┃➠ ${sn}
+┃• • • • • • • • • • • • • • • • • • •
+┃ ᵀᵘ ⁿᵘ́ᵐᵉʳᵒ ᵈᵉˡ ˢᵉʳᶦᵉ ᵗᵉ ˢᵉʳᵛᶦʳᵃ ᵉⁿ ᶜᵃˢᵒ ᵠᵘᵉ 
+┃ ᵠᵘᶦᵉʳᵃ ᵇᵒʳʳᵃʳ ˢᵘˢ ʳᵉᵍᶦˢᵗʳᵒˢ
+┃ Ejemplo: ${usedPrefix}unreg (Numero del serie)
+┗─━─━─━∞◆∞━─━─━─┛`.trim())
+/*  let caption = `┏──━∞ *ʀᴇɢɪsᴛʀᴀᴅᴏ* ∞─━─┓
 ┃ *ɴᴏᴍʙʀᴇ* 
 ┃➠ ${name}
 ┃• • • • • • • • • • • • • • • • • • •
@@ -83,8 +97,8 @@ global.db.data.users[m.sender].exp += 400
 ┃➠ ${sn}
 ┗─━─━─━∞◆∞━─━─━─┛`
 //let author = global.author
-await conn.sendButton(m.chat, caption, `ᵀᵘ ⁿᵘ́ᵐᵉʳᵒ ᵈᵉˡ ˢᵉʳᶦᵉ ᵗᵉ ˢᵉʳᵛᶦʳᵃ ᵉⁿ ᶜᵃˢᵒ ᵠᵘᵉ ᵠᵘᶦᵉʳᵃ ᵇᵒʳʳᵃʳ ˢᵘˢ ʳᵉᵍᶦˢᵗʳᵒˢ\nEjemplo: ${usedPrefix}unreg (Numero del serie)\n${wm}`, [['ᴠᴇʀɪғᴀᴄᴀᴅᴏ(ᴀ)!! ✅', '/profile']], m)
-await m.reply(`${sn}`) 
+await conn.sendButton(m.chat, caption, `ᵀᵘ ⁿᵘ́ᵐᵉʳᵒ ᵈᵉˡ ˢᵉʳᶦᵉ ᵗᵉ ˢᵉʳᵛᶦʳᵃ ᵉⁿ ᶜᵃˢᵒ ᵠᵘᵉ ᵠᵘᶦᵉʳᵃ ᵇᵒʳʳᵃʳ ˢᵘˢ ʳᵉᵍᶦˢᵗʳᵒˢ\nEjemplo: ${usedPrefix}unreg (Numero del serie)\n${wm}`, [['ᴠᴇʀɪғᴀᴄᴀᴅᴏ(ᴀ)!! ✅', '/profile']], m)*/
+m.reply(`${sn}`) 
 }
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['rg']
